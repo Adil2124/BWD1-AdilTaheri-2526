@@ -1,7 +1,7 @@
 # Basic Web Development 1
 
-- Academiejaar: 
-- Opleiding: 
+- Academiejaar: eerste jaar
+- Opleiding: Systeem- en netwerkbeheer
 - Klasgroep: 
-- Naam: 
+- Naam: Adil Taheri
 
