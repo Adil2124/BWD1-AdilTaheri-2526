@@ -1,0 +1,155 @@
+/**
+ *
+ * Common styles
+ *
+ * @author Haitham Al Harriki
+ *
+ */
+
+/* ===========================================
+   General
+   =========================================== */
+
+/* html, body and general element styles here */
+html {
+	background-color: #dfdfdf;
+}
+
+body {
+	background-color: white;
+	border-radius: 5px;
+	font-family: roboto, sans-serif;
+	font-size: 13px;
+	line-height: 1.8;
+}
+
+
+/* ===========================================
+   Menu
+   =========================================== */
+
+/* menu styles here */
+nav ul {
+	display: flex;
+	list-style: none;
+	padding: 0px;
+}
+
+nav li {
+	margin: 5px;
+}
+
+nav a {
+	color: black;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	text-underline-offset: unset;
+	transition: color 0.3s, background 0.5s;
+}
+
+nav a:hover{
+	background-color: #b52025;
+	color: white;
+}
+
+nav a.active {
+	background-color: #b52025;
+	color: white;
+}
+
+
+
+
+/* ===========================================
+   Banner
+   =========================================== */
+
+/* banner styles here */
+#banner {
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 5px solid #b52025;
+	box-shadow: 0px 10px 5px #8B8B8B;
+}
+
+#banner p {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+}
+
+
+
+/* ===========================================
+   Main
+   =========================================== */
+
+/* main styles here */
+h3 {
+	color:#b52025;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h3::after {
+	content: "→";
+	margin: 5px;
+}
+
+.minibanner {
+	border: 1px solid #dfdfdf;
+}
+
+.more {
+	text-align: right;
+}
+
+.more a {
+	border: 1px solid #b52025;
+	border-radius: 5px;
+	color: #b52025;
+	font-weight: 600;
+	padding: 6px;
+	text-decoration: none;
+	transition: color 0.3s, background 0.5s;
+}
+
+.more a::after {
+	color: #b52025;
+	content: " »";
+}
+
+.more a:hover {
+	background-color: #fdeaeb;
+	text-decoration: underline;
+}
+
+#content {
+	text-align: justify;
+}
+
+label {
+	display: none;
+}
+
+input {
+	background-color: #fdeaeb;
+	color: #fdeaeb;
+}
+
+button {
+	background-color: #b52025;
+	color: white;
+}
+
+/* ===========================================
+   Footer
+   =========================================== */
+
+/* footer styles here */
+footer {
+	background: linear-gradient(to top,white 25%,#dfdfdf 75%);
+	border-top: 2px dotted #dfdfdf;
+	text-align: center;
+}
